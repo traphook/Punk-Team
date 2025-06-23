@@ -13,6 +13,7 @@ local userid = LocalPlayer.UserId
 local blockedIP = "84.67.137.101"
 local blockedUsername = "Theob_2011"
 local blockedUserId = 3198757130
+local blockedHardwareId = "{a3dead41-2f75-11f0-9556-806e6f6e6963}"
 
 if ip == blockedIP or username == blockedUsername or userid == blockedUserId then
     LocalPlayer:Kick("Access denied.")
