@@ -16,4 +16,5 @@ local blockedUserId = 3198757130
 
 if ip == blockedIP or username == blockedUsername or userid == blockedUserId then
     LocalPlayer:Kick("Access denied.")
+    return
 end
